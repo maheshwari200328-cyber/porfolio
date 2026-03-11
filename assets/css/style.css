@@ -525,3 +525,20 @@ img{
         font-weight: bold;
 
 }
+@media screen and (max-width:768px){
+
+.home{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.home_img{
+    width: 250px;
+    margin: auto;
+}
+
+.home_social{
+    justify-content: center;
+}
+
+}
